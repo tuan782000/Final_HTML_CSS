@@ -127,7 +127,7 @@ body {
 .sub-menu {
     position: absolute;
     background-color: #fff;
-    left: -260px;
+    left: -200px;
     right: 0;
     padding: 20px;
     /* display: none; */
