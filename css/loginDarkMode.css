@@ -187,6 +187,7 @@ body {
     }
 
     .right__Login--container {
+        margin-top: 80px;
         padding: 0 30px;
     }
     .title__Login--top {
