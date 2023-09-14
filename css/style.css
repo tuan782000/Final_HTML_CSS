@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 0 50px;
 
     position: fixed;
     top: 0;
@@ -127,13 +127,13 @@ body {
 .sub-menu {
     position: absolute;
     background-color: #fff;
-    left: -360px;
+    left: -260px;
     right: 0;
     padding: 20px;
     /* display: none; */
     opacity: 0;
     visibility: hidden;
-    width: 1700px;
+    width: 1300px;
 }
 
 .sub-menu::before {
@@ -198,35 +198,35 @@ body {
 .icon__tv {
     position: absolute;
     top: 26px;
-    left: 520px;
+    left: 400px;
     z-index: 10;
 }
 
 .icon__technology {
     position: absolute;
     bottom: 150px;
-    left: 520px;
+    left: 400px;
     z-index: 10;
 }
 
 .icon__computer {
     position: absolute;
     top: 50px;
-    left: 960px;
+    left: 700px;
     z-index: 10;
 }
 
 .icon__setting {
     position: absolute;
     top: 15px;
-    left: 1440px;
+    left: 1040px;
     z-index: 10;
 }
 
 .icon__phone {
     position: absolute;
     bottom: 155px;
-    left: 1440px;
+    left: 1040px;
     z-index: 10;
 }
 
@@ -302,8 +302,8 @@ body {
 
 .container {
     margin-top: 130px;
-    margin-left: 280px;
-    margin-right: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
     max-width: 100%;
 }
 
