@@ -71,8 +71,7 @@ body {
 }
 
 .left-section {
-    width: 40%;
-    justify-content: space-between;
+    width: 65%;
 }
 
 .logo__company__img {
@@ -86,6 +85,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 32px; /* 145.455% */
+    margin-right: 50px;
 }
 
 .middile-section {
@@ -136,6 +136,7 @@ body {
     opacity: 0;
     visibility: hidden;
     width: 1300px;
+    /* width: 100%; */
 }
 
 .sub-menu::before {
@@ -184,7 +185,7 @@ body {
     content: "";
     width: 1px;
     height: 260px;
-    background-color: #D2D1D6;
+    background-color: #d2d1d6;
     position: absolute;
     top: 16px;
     left: 250px;
@@ -244,7 +245,12 @@ body {
     line-height: 24px; /* 150% */
 }
 
-.list__departments li, .list__tv li, .list__technology li, .list__computer li, .list__setting li, .list__phone li {
+.list__departments li,
+.list__tv li,
+.list__technology li,
+.list__computer li,
+.list__setting li,
+.list__phone li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -259,9 +265,9 @@ body {
 }
 
 .middle__icon__container {
-    width: 35%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .search__icon__container {
@@ -304,7 +310,6 @@ body {
     height: 80px;
 }
 
-
 /* Categories */
 
 .container {
@@ -321,7 +326,6 @@ body {
 .banner__image {
     width: 100%;
 }
-
 
 .title__categories {
     margin-bottom: 20px;
@@ -439,6 +443,7 @@ body {
     line-height: 22px; /* 146.667% */
     margin-bottom: 16px;
 }
+
 .card__product__content__information {
     display: flex;
     align-items: center;
@@ -466,7 +471,7 @@ body {
     box-shadow: 1px 1px 20px #a0a0a0;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (min-width: 370px) and (max-width: 767.08px) {
     .header__mobile {
         display: flex;
     }
@@ -542,3 +547,38 @@ body {
         margin-bottom: 30px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .right-section {
+        max-width: 462px;
+    }
+    .all__list__categories {
+        display: none;
+    }
+    .right-section {
+        flex: 1;
+    }
+    .left-section {
+        flex: 1;
+    }
+    .middle__icon__container {
+        flex: 2;
+        max-width: 160px;
+    }
+
+    .list__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .card__product__container {
+        width: 100%;
+    }
+
+    .body__products {
+        justify-content: space-around;
+    }
+}
+
