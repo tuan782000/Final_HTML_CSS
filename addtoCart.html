@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cart</title>
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Link css -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/addtoCart.css">
+    </head>
+    <body>
+
+        <!-- Header -->
+        <div class="header">
+            <div class="left-section">
+                <div class="left__section__logo">
+                    <img src="img/Icon.png" alt="Logo" class="logo__company__img">
+                    <p class="logo__company__name">grocerymart</p>
+                </div>
+                <ul class="all__list__categories middile-section">
+                    <li class="list__categories">
+                        <div>Department <i class="arrow down"></i></div> 
+                        <div class="sub-menu">
+                            <div class="sub-menu-container">
+                                <div class="sub__menu__departments">
+                                    <h2 class="sub__menu__departments--title departments--title--icon">All Departments</h2>
+                                    <ul class="list__departments">
+                                        <li><img src="img/Icon_Sub.png" class="icon__departments" alt=""></li>
+                                        <li>Saving & Featured Shops</li>
+                                        <li>Electronics</li>
+                                        <li>Clothing, Shoes & Appliances</li>
+                                        <li>Toys & Video Games</li>
+                                        <li>Home Improvement</li>
+                                        <li>Baby</li>
+                                        <li>Household Essentials</li>
+                                        <li>Personal Care</li>
+                                        <li>Saving & Featured Shops</li>
+                                        <li>Electronics</li>
+                                        <li>Clothing, Shoes & Appliances</li>
+                                        <li>Toys & Video Games</li>
+                                    </ul>
+                                </div>
+                                <div class="sub__menu__tv">
+                                    <h2 class="sub__menu__tv--title tv--title--icon">TV & Video</h2>
+                                    <ul class="list__tv" style="padding-bottom: 35px;">
+                                        <li><img src="img/Icon_Sub_01.png" class="icon__tv" alt=""></li>
+                                        <li>Shop all TVs</li>
+                                        <li>TVs by Size</li>
+                                        <li>Smart TVs</li>
+                                        <li>Roku TVs</li>
+                                        <li>Streaming</li>
+                                        <li>TV Mounts & Accessories</li>
+                                        <li>DVD & Blu-Ray Players</li>
+                                    </ul>
+                                    <h2 class="sub__menu__technology--title technology--title--icon">Technology</h2>
+                                    <ul class="list__technology">
+                                        <li><img src="img/Icon_Sub_02.png" class="icon__technology" alt=""></li>
+                                        <li>Shop all TVs</li>
+                                        <li>TVs by Size</li>
+                                        <li>Smart TVs</li>
+                                        <li>Roku TVs</li>
+                                        <li>Streaming</li>
+                                    </ul>
+                                </div>
+                                <div class="sub__menu__computer">
+                                    <h2 class="sub__menu__computer--title computer--title--icon">Computer</h2>
+                                    <ul class="list__computer">
+                                        <li><img src="img/Icon_Sub_03.png" class="icon__computer" alt=""></li>
+                                        <li>Saving & Featured Shops</li>
+                                        <li>Electronics</li>
+                                        <li>Clothing, Shoes & Appliances</li>
+                                        <li>Toys & Video Games</li>
+                                        <li>Home Improvement</li>
+                                        <li>Baby</li>
+                                        <li>Household Essentials</li>
+                                        <li>Personal Care</li>
+                                        <li>Saving & Featured Shops</li>
+                                        <li>Electronics</li>
+                                        <li>Clothing, Shoes & Appliances</li>
+                                        <li>Toys & Video Games</li>
+                                    </ul>
+                                </div>
+                                <div class="sub__menu__setting">
+                                    <h2 class="sub__menu__setting--title setting--title--icon">Setting</h2>
+                                    <ul class="list__setting" style="padding-bottom: 35px;">
+                                        <li><img src="img/Icon_Sub_04.png" class="icon__setting" alt=""></li>
+                                        <li>Shop all TVs</li>
+                                        <li>TVs by Size</li>
+                                        <li>Smart TVs</li>
+                                        <li>Roku TVs</li>
+                                        <li>Streaming</li>
+                                        <li>TV Mounts & Accessories</li>
+                                        <li>DVD & Blu-Ray Players</li>
+                                    </ul>
+                                    <h2 class="sub__menu__phone--title phone--title--icon">Cell Phones</h2>
+                                    <ul class="list__phone">
+                                        <li><img src="img/Icon_Sub_05.png" class="icon__phone" alt=""></li>
+                                        <li>Shop all TVs</li>
+                                        <li>TVs by Size</li>
+                                        <li>Smart TVs</li>
+                                        <li>Roku TVs</li>
+                                        <li>Streaming</li>
+                                        <li>TV Mounts & Accessories</li>
+                                        <li>DVD & Blu-Ray Players</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__categories">Gallery <i class="arrow down"></i></li>
+                    <li class="list__categories">Beauty <i class="arrow down"></i></li>
+                </ul>
+            </div>
+            
+            <div class="right-section">
+                <div class="search__icon__container">
+                    <img src="img/Search.svg" alt="search" class="search-icon">
+                </div>
+                <div class="middle__icon__container">
+                    <div class="love__icon__container">
+                        <img src="img/love.svg" alt="love" class="love-icon">
+                        <div class="text-love-icon">03</div>
+                    </div>
+                    <div class="cart__icon__container">
+                        <img src="img/Buy.svg" alt="" class="cart-icon">
+                        <div class="text-cart-icon">&#36;65.42</div>
+                    </div>
+                </div>
+                <div class="avatar__icon__container" style="cursor: pointer;">
+                    <img src="img/Avatar.png" alt="avatar" class="avatar"> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Header mobile -->
+        <div class="header__mobile">
+            <div class="mobile__section__left">
+                <img src="img/menu_ham.svg" alt="menu">
+            </div>
+            <div class="mobile__section__middle">
+                <img src="img/Icon.png" alt="Logo" style="margin-right: 10px;" class="mobile__section__middle_img">
+                <h1 class="mobile__section__middle_title">grocerymart</h1>
+            </div>
+            <div class="mobile__section__right">
+                <img src="img/Avatar.png" alt="avatar">
+            </div>
+        </div>
+        <!-- Body -->
+        <!--  -->
+        <div class="container">
+          <div class="cart__left">
+            <div class="cart__item">
+                <img src="img/product_01.png" alt="" class="cart__item__img">
+                <div class="cart__item__information">
+                    <h2 class="cart__item__information--title">Coffee Beans - Espresso Arabica and Robusta Beans</h2>
+                    <div class="cart__item__information--func">
+                        <p class="cart__item__information--price">Price: $47.00</p>
+                        <p class="cart__item__information--count">Count: 3</p>
+                        <a class="cart__item__information--remove">Delete</a>
+                    </div>
+                </div>
+                <p class="cart__item__price">$47.00</p>
+            </div>
+            <hr style="background: #D2D1D6;">
+          </div>
+          <div class="cart__right">
+            <div class="cart__right__container">
+                <div class="cart__right__container--sub">
+                    <p>SubTotal</p>
+                    <p>3</p>
+                </div>
+                <div class="cart__right__container--price">
+                    <p>Price</p>
+                    <p>$1300</p>
+                </div>
+                <div class="cart__right__container--ship">
+                    <p>Shipping</p>
+                    <p>$10.00</p>
+                </div>
+                <hr>
+                <div class="cart__right__container--total">
+                    <p>Estimated Total</p>
+                    <p>$1000.00</p>
+                </div>
+                <a href="" class="cart__right__container--checkout">Continue to checkout</a>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
