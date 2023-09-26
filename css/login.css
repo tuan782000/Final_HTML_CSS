@@ -160,10 +160,15 @@
     color: #0071dc;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 922px) {
     .left__Login,
     .left__Login--container {
         display: none;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto;
     }
 
     .right__Login--container {
